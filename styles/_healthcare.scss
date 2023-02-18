@@ -1,0 +1,64 @@
+.healthcare{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E0DDFF 100%);
+    display: flex;
+    flex-direction: row;
+    padding: 80px 150px;
+    height: 100%;
+    gap: 70px;
+}
+
+.healthcare__img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.healthcare h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.healthcare ul{
+    margin-bottom: 15px;
+}
+
+.healthcare li{
+    margin-bottom: 10px;
+}
+
+.healthcare_list{
+    list-style-position: inside;
+}
+
+#healthcare__btn{
+    width: 40%;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.healthcare__contener--img {
+    position: relative;
+}
+
+#rect14{
+    position: absolute;
+    top: 14px;
+    right: -5px;
+    height: 44px;
+}
+
+#rect15{
+    position: absolute;
+    height: 44px;
+    bottom: 110px;
+    right: -5px;
+}
+
+
+#rect16{
+    position: absolute;
+    height: 44px;
+    right: -5px;
+    top: 14px;
+}
