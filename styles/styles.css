@@ -56,6 +56,7 @@ header {
   flex-direction: row;
   background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
   padding: 0 130px;
+  margin-bottom: 30px;
 }
 
 .main-text {
@@ -92,6 +93,7 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
+  font-weight: 500;
 }
 
 .banner-btn {
@@ -153,6 +155,91 @@ header {
 
 .rectangle13 span {
   font-size: 24px;
+}
+
+.banner__icon--ffa {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  bottom: 5px;
+  left: -10px;
+  padding: 5px 20px 5px 10px;
+}
+
+.banner__icon--ffa h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner__icon--ffa p {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.banner__icon--img {
+  background: #393381;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.careclinic {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  padding: 85px 150px 60px 150px;
+  gap: 50px;
+}
+
+.care__main--img {
+  position: relative;
+  background-image: url("/img/Rectangle 9.png");
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+.careclinic__main--text h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.careclinic__main--text h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.careclinic__list {
+  list-style-image: url("/img/icons/Arrow.png");
+  margin-bottom: 30px;
+  list-style-position: inside;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.careclinic__list li {
+  margin-bottom: 10px;
+}
+
+#careclinic__btn {
+  width: 40%;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+#careclinic__video {
+  padding: 20px;
+  right: 77px;
+  top: 40px;
+}
+
+#care__icon--ffa {
+  bottom: 40px;
+  left: -36px;
 }
 
 * {

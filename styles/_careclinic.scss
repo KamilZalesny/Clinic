@@ -1,0 +1,57 @@
+.careclinic {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    padding: 85px 150px 60px 150px;
+    gap: 50px;
+}
+.care__main--img{
+    position: relative;
+    background-image: url('/img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.careclinic__main--text h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.careclinic__main--text h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+.careclinic__list{
+    list-style-image: url('/img/icons/Arrow.png');
+    margin-bottom: 30px;
+    list-style-position: inside;
+    font-size: 17px;
+    font-weight: 500;
+}
+.careclinic__list li{
+    margin-bottom: 10px;
+
+}
+
+#careclinic__btn{
+    width: 40%;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+#careclinic__video{
+    padding: 20px;
+    right: 77px;
+    top: 40px;
+}
+
+#care__icon--ffa{
+    bottom: 40px;
+    left: -36px;
+}
+

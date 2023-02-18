@@ -3,6 +3,7 @@
     flex-direction: row;
     background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
     padding: 0 130px;
+    margin-bottom: 30px;
 }
 
 .main-text{
@@ -39,6 +40,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    font-weight: 500;
 }
 
 .banner-btn {
@@ -99,4 +101,34 @@
 
 .rectangle13 span {
     font-size: 24px;
+}
+
+.banner__icon--ffa{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    bottom: 5px;
+    left: -10px;
+    padding: 5px 20px 5px 10px;
+}
+
+
+.banner__icon--ffa h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner__icon--ffa p{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.banner__icon--img{
+    background: #393381;
+    border-radius: 50%;
+    padding: 10px;
 }
