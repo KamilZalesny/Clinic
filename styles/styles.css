@@ -213,7 +213,6 @@ header {
 }
 
 .careclinic__list {
-  list-style-image: url("/img/icons/Arrow.png");
   margin-bottom: 30px;
   list-style-position: inside;
   font-size: 17px;
