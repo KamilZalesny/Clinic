@@ -2,6 +2,10 @@
 @import './banner';
 @import './careclinic';
 @import './healthcare';
+@import './WhatandWhy';
+@import './talkto';
+@import './howdoes';
+@import './getstarted';
 
 *{
     padding: 0;
@@ -12,6 +16,8 @@
 body {
     position: relative;
     width: 1440px;
+    font-family: 'Poppins';
+
 }
 
 .img-icon{

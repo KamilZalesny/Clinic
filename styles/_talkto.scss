@@ -1,0 +1,44 @@
+.talkto__main--page{
+    background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
+    display: flex;
+    padding: 80px 150px;
+    gap: 40px;
+}
+.talkto__main--text h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.talkto__main--text span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 15px;
+}
+
+#startonlinevisit{
+    width: 30%;
+    padding: 10px 0;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.talkto__main--img{
+    position: relative;
+}
+
+#talktovideo{
+    position: absolute;
+    padding: 20px;
+    top: 30px;
+    right: -35px;
+
+}
+
+#talktocall{
+    position: absolute;
+    bottom: 40px;
+    left: -35px;
+}
