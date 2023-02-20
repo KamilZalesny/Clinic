@@ -1,0 +1,17 @@
+.download{
+    background: #FEF4EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+.download h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.download__img--cont{
+    gap: 20px;
+    display: flex;
+}

@@ -469,6 +469,75 @@ header {
   line-height: 30px;
 }
 
+.download {
+  background: #FEF4EB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 150px;
+}
+
+.download h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.download__img--cont {
+  gap: 20px;
+  display: flex;
+}
+
+.makeus--main__page {
+  padding: 80px 150px;
+}
+
+.makeus--main--title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+}
+
+.makeus--main--title h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.makeus--main--title span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.makeus--main__frame {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 15px;
+}
+
+.makeus--main__cont {
+  background: #393381;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 50px;
+  text-align: left;
+  padding: 30px;
+}
+
+.makeus--main__cont h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.makeus--main__cont span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
 * {
   padding: 0;
   margin: 0;
