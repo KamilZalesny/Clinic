@@ -1,16 +1,18 @@
 header{
+    
     top: 0;
     left: 0;
     height: 80px;
 }
 
 .header-main{
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
-    justify-content: space-between;
-    padding: 0 55px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .navbar-container{
@@ -18,12 +20,10 @@ header{
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-between;
-    width: 50%;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
     font-style: normal;
-    margin-left: 70px;
+    gap: 10px;
 
 }
 
@@ -56,3 +56,7 @@ header{
 
 }
 
+.navbar--btn{
+    display: flex;
+    gap: 10px;
+}
