@@ -97,6 +97,11 @@ header {
   align-items: center;
 }
 
+.banner-yt {
+  align-items: center;
+  display: flex;
+}
+
 .main-img {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
