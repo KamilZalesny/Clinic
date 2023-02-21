@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
-    padding: 0 130px;
+    justify-content: center;
     margin-bottom: 30px;
+    gap: 30px;
 }
 
 .main-text{
@@ -48,7 +49,6 @@
 .main-img{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    margin: 0 40px auto 50px;
     gap: 20px;
 }
 

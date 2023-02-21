@@ -55,8 +55,9 @@ header {
   display: flex;
   flex-direction: row;
   background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
-  padding: 0 130px;
+  justify-content: center;
   margin-bottom: 30px;
+  gap: 30px;
 }
 
 .main-text {
@@ -99,7 +100,6 @@ header {
 .main-img {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  margin: 0 40px auto 50px;
   gap: 20px;
 }
 
@@ -536,6 +536,64 @@ header {
   font-size: 18px;
   line-height: 34px;
   color: #FFFFFF;
+}
+
+.footer--contacts {
+  background: #FEF4EB;
+  padding: 33px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--contacts a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer--links {
+  background: #2B2B2B;
+  padding: 60px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--links__list li {
+  list-style: none;
+  color: #FFFFFF;
+}
+
+.footer--links__list h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.footer--links__list a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.footer--bottom {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 400px;
+}
+
+.footer--bottom__img {
+  display: inline-flex;
+  gap: 35px;
+  justify-content: center;
 }
 
 * {
