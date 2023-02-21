@@ -573,7 +573,6 @@ header {
 
 .footer--links__list li {
   list-style: none;
-  color: #FFFFFF;
 }
 
 .footer--links__list h4 {
@@ -588,6 +587,8 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer--bottom {
