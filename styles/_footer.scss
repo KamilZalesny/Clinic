@@ -43,6 +43,7 @@
     line-height: 40px;  
     color: #FFFFFF;
     text-decoration: none;
+    transition: .5s;
 }
 
 .footer--bottom{
@@ -56,4 +57,13 @@
     display: inline-flex;
     gap: 35px;
     justify-content: center;
+}
+
+.footer--links__list a:hover{
+    color: aquamarine;
+}
+
+.footer--links__list li:hover{
+    transform: translateX(-12px);
+    transition: .5s;
 }
