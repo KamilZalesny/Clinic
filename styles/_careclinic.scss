@@ -1,9 +1,10 @@
-.careclinic {
+.careclinic{
+    margin: 85px 0px 60px 0px;
+}
+
+.careclinic__container {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-    padding: 85px 150px 60px 150px;
-    gap: 50px;
+    justify-content: center;
 }
 .care__main--img{
     position: relative;
@@ -49,7 +50,7 @@
 }
 
 #care__icon--ffa{
-    bottom: 40px;
+    bottom: 80px;
     left: -36px;
 }
 

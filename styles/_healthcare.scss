@@ -1,17 +1,17 @@
 .healthcare{
     background: linear-gradient(180deg, #FFFFFF 0%, #E0DDFF 100%);
+    
+}
+.healthcare__container{
     display: flex;
-    flex-direction: row;
-    padding: 80px 150px;
-    height: 100%;
+    justify-content: center;
     gap: 70px;
 }
 
 .healthcare__img{
     display: flex;
-    flex-direction: row;
     gap: 15px;
-    margin: auto;
+    margin: auto 0;
 }
 
 .healthcare h1{

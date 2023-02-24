@@ -52,13 +52,16 @@ header {
   gap: 10px;
 }
 
-.banner {
+.banner--container {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
   justify-content: center;
   margin-bottom: 30px;
   gap: 30px;
+}
+
+.banner {
+  background: linear-gradient(180deg, #E0DDFF 0%, #FFFFFF 100%);
 }
 
 .main-text {
@@ -186,11 +189,12 @@ header {
 }
 
 .careclinic {
+  margin: 85px 0px 60px 0px;
+}
+
+.careclinic__container {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-  padding: 85px 150px 60px 150px;
-  gap: 50px;
+  justify-content: center;
 }
 
 .care__main--img {
@@ -235,24 +239,24 @@ header {
 }
 
 #care__icon--ffa {
-  bottom: 40px;
+  bottom: 80px;
   left: -36px;
 }
 
 .healthcare {
   background: linear-gradient(180deg, #FFFFFF 0%, #E0DDFF 100%);
+}
+
+.healthcare__container {
   display: flex;
-  flex-direction: row;
-  padding: 80px 150px;
-  height: 100%;
+  justify-content: center;
   gap: 70px;
 }
 
 .healthcare__img {
   display: flex;
-  flex-direction: row;
   gap: 15px;
-  margin: auto;
+  margin: auto 0;
 }
 
 .healthcare h1 {
