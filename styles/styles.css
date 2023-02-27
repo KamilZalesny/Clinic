@@ -249,8 +249,7 @@ header {
 
 .healthcare__container {
   display: flex;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-around;
 }
 
 .healthcare__img {
